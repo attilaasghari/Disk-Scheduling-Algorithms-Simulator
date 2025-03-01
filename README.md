@@ -36,7 +36,7 @@ This application simulates various disk scheduling algorithms with visualization
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/disk-scheduling-simulator.git
+git clone https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator.git
 ```
 2. Install dependencies:
 ```bash
