@@ -1,98 +1,62 @@
 # Disk Scheduling Algorithms Simulator
-This application simulates various disk scheduling algorithms with visualizations. Key implementation details:
-![Screenshot](./assets/screenshot-1.PNG)
-![Screenshot](./assets/screenshot-2.PNG)
 
-**Core Features:**
-- Implements 6 disk scheduling algorithms:
+[![Python application](https://github.com/attilaasghari/disk-scheduling-simulator/actions/workflows/python-app.yml/badge.svg)](https://github.com/attilaasghari/disk-scheduling-simulator/actions/workflows/python-app.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+An educational tool for demonstrating and comparing disk scheduling algorithms used in operating systems.
+
+## Features
+
+- **Six Algorithms Implemented**:
   - FCFS (First-Come, First-Served)
   - SSTF (Shortest Seek Time First)
   - SCAN (Elevator Algorithm)
   - C-SCAN (Circular SCAN)
-  - LOOK 
+  - LOOK
   - C-LOOK
-- Default disk size set to 200 cylinders (configurable in code)
-- Visualizes head movement sequence using matplotlib
-- Calculates total head movement for performance comparison
 
-**Technical Implementation:**
-- GUI built with Tkinter for accessibility
-- Matplotlib integration for dynamic plotting
-- Modular architecture separating:
-  - GUI components (`DiskSchedulingApp` class)
-  - Algorithm logic (separate methods for each algorithm)
-  - Visualization routines
-- Error handling for invalid inputs
-- Random request generation capability
+- **Interactive GUI**:
+  - Visualize head movement sequences
+  - Compare total head movement across algorithms
+  - Configurable disk parameters
+  - Load requests from files
 
-**Design Choices:**
-- Used SCAN/C-SCAN with directional bias (right-first movement)
-- Implemented LOOK as modified SCAN without disk boundaries
-- Default disk size 200 to match traditional HDD specifications
-- Color-coded visualization for better readability
+- **Educational Focus**:
+  - Algorithm descriptions
+  - Performance metrics
+  - Visual representation of scheduling patterns
 
-## How to Use
+## Installation
 
-### Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator.git
-```
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-## Running the Application
-```bash
-python main.py
-```
-### Interface Guide
-1. **Input Fields:**
-   - Initial Position: Starting head position (0-200)
-   - Requests: Comma-separated list of cylinder requests
-   
-2. **Controls:**
-   - Algorithm Selection: Choose from 6 scheduling algorithms
-   - Generate Random: Auto-fill with random values
-   - Clear: Reset all fields
-   - Simulate: Run selected algorithm
+See [Installation Guide](docs/installation.md) for detailed instructions.
 
-3. **Interpreting Results:**
-- Head movement sequence shown in plot
-- Total movement displayed below controls
-- Hover over plot points to see cylinder numbers
+## Usage
 
-### Example Test Case
-**Input:**
-- Initial Position: 95
-- Requests: 50, 120, 30, 180
-- Algorithm: LOOK
+See [Usage Guide](docs/usage.md) for information on how to use the simulator.
 
-**Expected Output:**
-- Total Movement: 235
-- Sequence: [95 → 120 → 180 → 50 → 30]
+## Documentation
 
+- [Algorithms Explained](docs/algorithms.md)
+- [Installation Guide](docs/installation.md)
+- [Usage Guide](docs/usage.md)
 
-### Testing Different Algorithms
-Use these sample inputs to verify implementations:
+## Examples
 
-| Algorithm | Initial | Requests        | Expected Total Movement |
-|-----------|---------|-----------------|-------------------------|
-| FCFS      | 50      | 55,91,27,85     | 163                     |
-| C-SCAN    | 95      | 50,120,30,180   | 355                     |
-| SSTF      | 50      | 55,91,27,85     | 105                     |
-
-## Configuration
-To modify default settings:
-- Change disk size: Edit `disk_size` parameter in SCAN/C-SCAN methods
-- Adjust visualization: Modify `figsize` in `self.figure = plt.figure(figsize=(6, 4))`
-
+Check the [examples](examples/) directory for sample request files and demo scripts.
 
 ## Contributing
-Pull requests welcome! For major changes, please open an issue first.
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
-```text
-MIT License
-Copyright (c) [2024] [Attila Asghari]
-```
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- **Attila Asghari** - [GitHub](https://github.com/attilaasghari)
+
+## Acknowledgments
+
+- Inspired by operating systems concepts taught in academic courses
+- Built with Python, Tkinter, and Matplotlib
