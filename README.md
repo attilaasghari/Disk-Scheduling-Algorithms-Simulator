@@ -58,7 +58,7 @@ python -m disk_scheduling_simulator
 MIT License - see [LICENSE](LICENSE) for details.
 
 ## 👤 Author
-Attila Asghari - [GitHub](https://github.com/attilaasghari?spm=a2ty_o01.29997173.0.0.69fcc9210DBNQJ) - [Website](https://ata.vitren.ir) - [Portfolio Website](https://attila.vitren.ir)
+Attila Asghari - [GitHub](https://github.com/attilaasghari?spm=a2ty_o01.29997173.0.0.69fcc9210DBNQJ) - [Website](https://ata.vitren.ir) - [Portfolio Website](https://attila.vitren.ir) - [email](mailto:attilaasghari@gmail.com)
 
 ## Acknowledgments
 
