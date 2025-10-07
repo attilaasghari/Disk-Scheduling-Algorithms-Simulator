@@ -14,7 +14,7 @@ This major update introduces a complete graphical user interface, making the sim
 
 Get started immediately with our standalone executables:
 
-- **Windows**: [disk-scheduler-v2.0.0-windows.zip](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/releases/download/v2.0.0/disk-scheduler-v2.0.0-windows.zip)
+- **Windows**: [disk-scheduler-v2.0.0-windows.exe](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/releases/download/v2.0.0/disk-scheduler.exe)
 - **macOS**: Coming soon
 - **Linux**: Coming soon
 
