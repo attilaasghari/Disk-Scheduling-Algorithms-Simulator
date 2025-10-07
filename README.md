@@ -17,7 +17,9 @@ Get started immediately with our standalone executables:
 - **Windows**: [disk-scheduler-v2.0.0-windows.exe](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/releases/download/v2.0.0/disk-scheduler.exe)
 - **macOS**: Coming soon
 - **Linux**: Coming soon
-
+- 
+Also there is Online version of this tool available, it's created with php and javascript
+- [Online version](https://ata.vitren.ir/projects/dsas/)
 ## 🌟 Features
 
 - **Six Algorithms**: FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK
@@ -31,8 +33,6 @@ Get started immediately with our standalone executables:
 - [Installation Guide](docs/installation.md)
 - [Usage Guide](docs/usage.md)
 - [Algorithms Explained](docs/algorithms.md)
-Also there is Online version of this tool available, it's created with php and javascript
-- [Online version](https://ata.vitren.ir/projects/dsas/)
 
 ## 📦 Installation
 
