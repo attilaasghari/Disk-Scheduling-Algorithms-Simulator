@@ -60,6 +60,10 @@ MIT License - see [LICENSE](LICENSE) for details.
 ## 👤 Author
 Attila Asghari - [GitHub](https://github.com/attilaasghari?spm=a2ty_o01.29997173.0.0.69fcc9210DBNQJ) - [Website](https://ata.vitren.ir) - [Portfolio Website](https://attila.vitren.ir)
 
+## Acknowledgments
+
+- Inspired by operating systems concepts taught in academic courses
+- Built with Python, Tkinter, and Matplotlib
 
 
 
