@@ -1,62 +1,66 @@
 # Disk Scheduling Algorithms Simulator
 
-[![Python application](https://github.com/attilaasghari/disk-scheduling-simulator/actions/workflows/python-app.yml/badge.svg)](https://github.com/attilaasghari/disk-scheduling-simulator/actions/workflows/python-app.yml)
+[![Python application](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/actions/workflows/python-app.yml/badge.svg)](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/actions/workflows/python-app.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Version](https://img.shields.io/badge/version-v2.0.0-blue)
 
 An educational tool for demonstrating and comparing disk scheduling algorithms used in operating systems.
 
-## Features
+## 🚀 Version 2.0.0 - Now with GUI and Binary Releases!
 
-- **Six Algorithms Implemented**:
-  - FCFS (First-Come, First-Served)
-  - SSTF (Shortest Seek Time First)
-  - SCAN (Elevator Algorithm)
-  - C-SCAN (Circular SCAN)
-  - LOOK
-  - C-LOOK
+This major update introduces a complete graphical user interface, making the simulator accessible to students and educators without requiring Python knowledge.
 
-- **Interactive GUI**:
-  - Visualize head movement sequences
-  - Compare total head movement across algorithms
-  - Configurable disk parameters
-  - Load requests from files
+## 📥 Download Binary Releases
 
-- **Educational Focus**:
-  - Algorithm descriptions
-  - Performance metrics
-  - Visual representation of scheduling patterns
+Get started immediately with our standalone executables:
 
-## Installation
+- **Windows**: [disk-scheduler-v2.0.0-windows.zip](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/releases/download/v2.0.0/disk-scheduler-v2.0.0-windows.zip)
+- **macOS**: Coming soon
+- **Linux**: Coming soon
 
-See [Installation Guide](docs/installation.md) for detailed instructions.
+## 🌟 Features
 
-## Usage
+- **Six Algorithms**: FCFS, SSTF, SCAN, C-SCAN, LOOK, C-LOOK
+- **Interactive Visualization**: See head movement patterns in real-time
+- **Performance Comparison**: Compare total head movement across algorithms
+- **Educational Focus**: Built-in algorithm descriptions and explanations
+- **Cross-Platform**: Works on Windows, macOS, and Linux
 
-See [Usage Guide](docs/usage.md) for information on how to use the simulator.
+## 📚 Documentation
 
-## Documentation
-
-- [Algorithms Explained](docs/algorithms.md)
 - [Installation Guide](docs/installation.md)
 - [Usage Guide](docs/usage.md)
+- [Algorithms Explained](docs/algorithms.md)
 
-## Examples
+## 📦 Installation
 
-Check the [examples](examples/) directory for sample request files and demo scripts.
+### From Binary (Recommended)
+Download the appropriate binary for your platform and run it directly.
 
-## Contributing
+### From PyPI
+```bash
+pip install disk-scheduling-simulator
+disk-scheduler
+```
+### From Source
+```bash
+git clone https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator.git
+cd Disk-Scheduling-Algorithms-Simulator
+pip install -e .
+python -m disk_scheduling_simulator
+```
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+## 🏷️ Version History
+- **v2.0.0:** Complete GUI rewrite with binary releases (Current)
+- **v1.0.0:** Original  [view](https://github.com/attilaasghari/Disk-Scheduling-Algorithms-Simulator/tree/v1.0.0?spm=a2ty_o01.29997173.0.0.69fcc9210DBNQJ&file=v1.0.0)
 
-## License
+## 📄 License
+MIT License - see [LICENSE](LICENSE) for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 👤 Author
+Attila Asghari - [GitHub](https://github.com/attilaasghari?spm=a2ty_o01.29997173.0.0.69fcc9210DBNQJ) - [Website](https://ata.vitren.ir) - [Portfolio Website](https://attila.vitren.ir)
 
-## Author
 
-- **Attila Asghari** - [GitHub](https://github.com/attilaasghari)
 
-## Acknowledgments
 
-- Inspired by operating systems concepts taught in academic courses
-- Built with Python, Tkinter, and Matplotlib
+
